@@ -44,8 +44,8 @@ gem 'wkhtmltopdf-binary', '~> 0.12.5'
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.8.2'
 # Import to XLSX using axlsx_rails and its dependencies.
-gem 'axlsx', git: 'https://github.com/randym/axlsx.git', ref: 'c8ac844'
-gem 'axlsx_rails', '>= 0.5.1'
+gem 'caxlsx', '~> 3.0'
+gem 'caxlsx_rails', '~> 0.6.2'
 gem 'rubyzip', '>= 1.2.1'
 # Wicked pdf heroku binary
 gem 'wkhtmltopdf-heroku'
